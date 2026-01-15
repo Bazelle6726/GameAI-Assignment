@@ -3,69 +3,156 @@ using UnityEngine.AI;
 
 public class GuardController : MonoBehaviour
 {
-    [SerializeField] private NavMeshAgent agent;
-    [SerializeField] private Transform[] waypoints;
-    [SerializeField] private float patrolSpeed = 2f;
-    [SerializeField] private float chaseSpeed = 5f;
-    [SerializeField] private float detectionRange = 10f;
-    [SerializeField] private float attackRange = 2f;
+    [Header("Components")]
+    public NavMeshAgent agent;
 
-    private int currentWaypointIndex = 0;
-    private bool isPatrolling = true;
-    private bool isChasing = false;
+    [Header("Patrol Settings")]
+    public Transform[] patrolPoints;
+    public float patrolWaitTime = 2f;
+
+    [Header("Detection Settings")]
+    public float detectionRadius = 10f;
+    public float fieldOfViewAngle = 110f;
+    public LayerMask targetMask; // What can be detected (enemies)
+    public LayerMask obstacleMask; // What blocks vision (walls)
+
+    [Header("Chase Settings")]
+    public float chaseSpeed = 5f;
+    public float normalSpeed = 3.5f;
+
+    [Header("Search Settings")]
+    public float searchDuration = 5f;
+    public float searchRadius = 5f;
+
+    // State Machine
+    private GuardState currentState;
+
+    // Public properties for states to access
+    public Transform CurrentTarget { get; set; }
+    public Vector3 LastKnownPosition { get; set; }
 
     void Start()
     {
-        agent.speed = patrolSpeed;
-        agent.SetDestination(waypoints[currentWaypointIndex].position);
+        // Get NavMeshAgent component
+        agent = GetComponent<NavMeshAgent>();
+
+        if (agent == null)
+        {
+            Debug.LogError("NavMeshAgent component missing!");
+            return;
+        }
+
+        // Validate patrol points
+        if (patrolPoints.Length == 0)
+        {
+            Debug.LogWarning("No patrol points assigned! Patrol state won't work properly.");
+        }
+
+        // Start in Patrol state
+        ChangeState(new PatrolState(this));
     }
 
     void Update()
     {
-        if (isPatrolling)
-        {
-            Patrol();
-        }
-        else if (isChasing)
-        {
-            Chase();
-        }
+        // Update current state
+        currentState?.Update();
     }
 
-    void Patrol()
+    /// <summary>
+    /// Change to a new state
+    /// </summary>
+    public void ChangeState(GuardState newState)
     {
-        if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < 1f)
+        // Exit current state
+        currentState?.Exit();
+
+        // Change to new state
+        currentState = newState;
+
+        // Enter new state
+        currentState?.Enter();
+    }
+
+    /// <summary>
+    /// Check if any target is visible within detection range
+    /// </summary>
+    public Transform DetectTarget()
+    {
+        // Find all colliders within detection radius
+        Collider[] targetsInRadius = Physics.OverlapSphere(transform.position, detectionRadius, targetMask);
+
+        foreach (Collider targetCollider in targetsInRadius)
         {
-            currentWaypointIndex++;
-            if (currentWaypointIndex >= waypoints.Length)
+            Transform target = targetCollider.transform;
+            Vector3 directionToTarget = (target.position - transform.position).normalized;
+
+            // Check if target is within field of view angle
+            if (Vector3.Angle(transform.forward, directionToTarget) < fieldOfViewAngle / 2)
             {
-                currentWaypointIndex = 0;
+                float distanceToTarget = Vector3.Distance(transform.position, target.position);
+
+                // Check if we have clear line of sight (no obstacles blocking)
+                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstacleMask))
+                {
+                    // Target detected!
+                    return target;
+                }
             }
-            agent.SetDestination(waypoints[currentWaypointIndex].position);
         }
 
-        if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < detectionRange)
+        return null; // No target detected
+    }
+
+    /// <summary>
+    /// Check if we can still see the current target
+    /// </summary>
+    public bool CanSeeTarget(Transform target)
+    {
+        if (target == null) return false;
+
+        Vector3 directionToTarget = (target.position - transform.position).normalized;
+        float distanceToTarget = Vector3.Distance(transform.position, target.position);
+
+        // Check distance
+        if (distanceToTarget > detectionRadius)
+            return false;
+
+        // Check angle
+        if (Vector3.Angle(transform.forward, directionToTarget) > fieldOfViewAngle / 2)
+            return false;
+
+        // Check line of sight
+        if (Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstacleMask))
+            return false;
+
+        return true;
+    }
+
+    // Visual debugging in Scene view
+    void OnDrawGizmosSelected()
+    {
+        // Draw detection radius
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+
+        // Draw field of view
+        Vector3 leftBoundary = Quaternion.Euler(0, -fieldOfViewAngle / 2, 0) * transform.forward * detectionRadius;
+        Vector3 rightBoundary = Quaternion.Euler(0, fieldOfViewAngle / 2, 0) * transform.forward * detectionRadius;
+
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(transform.position, transform.position + leftBoundary);
+        Gizmos.DrawLine(transform.position, transform.position + rightBoundary);
+
+        // Draw path if available
+        if (agent != null && agent.hasPath)
         {
-            isPatrolling = false;
-            isChasing = true;
-            agent.speed = chaseSpeed;
+            Gizmos.color = Color.green;
+            Vector3[] corners = agent.path.corners;
+
+            for (int i = 0; i < corners.Length - 1; i++)
+            {
+                Gizmos.DrawLine(corners[i], corners[i + 1]);
+            }
         }
-    }
-
-    void Chase()
-    {
-        // Implement chasing logic here
-        // For now, just move towards the player
-        // You can add more sophisticated chasing behavior later
-    }
-
-    void Search()
-    {
-        // Implement searching logic here
-        // For now, just return to patrolling
-        isChasing = false;
-        isPatrolling = true;
-        agent.speed = patrolSpeed;
-        agent.SetDestination(waypoints[currentWaypointIndex].position);
     }
 }
