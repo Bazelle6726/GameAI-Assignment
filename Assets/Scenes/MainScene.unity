@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (342)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -235,6 +239,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -362,6 +370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (338)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -386,6 +398,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -508,6 +524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -571,6 +591,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (209)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -637,6 +661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -701,6 +729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (240)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -735,6 +767,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -873,6 +909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -942,6 +982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -992,6 +1036,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -1100,6 +1148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0836264
@@ -1171,6 +1223,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -1284,6 +1340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1344,6 +1404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1363,6 +1427,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -1485,6 +1553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1548,6 +1620,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1613,6 +1689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1672,6 +1752,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1738,6 +1822,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1757,6 +1845,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -1879,6 +1971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (167)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1947,6 +2043,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2022,6 +2122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (248)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2051,6 +2155,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -2169,6 +2277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2232,6 +2344,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2302,6 +2418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (188)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2321,6 +2441,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -2448,6 +2572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2477,6 +2605,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -2564,6 +2696,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -2681,6 +2817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2749,6 +2889,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2824,6 +2968,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2898,6 +3046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (192)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2961,6 +3113,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (332)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3041,6 +3197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (324)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3105,6 +3265,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3278,6 +3442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3342,6 +3510,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3411,6 +3583,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3486,6 +3662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (221)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3559,6 +3739,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3839,6 +4023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.638519
@@ -3955,6 +4143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4039,6 +4231,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4211,6 +4407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4281,6 +4481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4350,6 +4554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4413,6 +4621,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4479,6 +4691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4543,6 +4759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (346)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4572,6 +4792,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -4689,6 +4913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (189)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4708,6 +4936,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -4825,6 +5057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4844,6 +5080,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -5082,6 +5322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5146,6 +5390,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5216,6 +5464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5240,6 +5492,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -5362,6 +5618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (304)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5447,6 +5707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (253)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5487,6 +5751,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -5600,6 +5868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5624,6 +5896,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -5741,6 +6017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (226)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5836,6 +6116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (228)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5904,6 +6188,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5984,6 +6272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (258)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6052,6 +6344,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6144,6 +6440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6207,6 +6507,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6281,6 +6585,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6448,6 +6756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6507,6 +6819,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6568,6 +6884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6587,6 +6907,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -6714,6 +7038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6774,6 +7102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6808,6 +7140,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -6945,6 +7281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (349)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7025,6 +7365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7051,7 +7395,7 @@ GameObject:
   - component: {fileID: 540718703}
   - component: {fileID: 540718702}
   - component: {fileID: 540718701}
-  - component: {fileID: 540718700}
+  - component: {fileID: 540718706}
   m_Layer: 0
   m_Name: Guard
   m_TagString: Untagged
@@ -7059,18 +7403,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &540718700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540718699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec2d5b4467928034bb84a9748bde6e73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!195 &540718701
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7178,12 +7510,43 @@ Transform:
   m_GameObject: {fileID: 540718699}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.76, y: 1, z: -2.3082175}
+  m_LocalPosition: {x: -30, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &540718706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540718699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 796c01124dd27d34d81c8c0d6a36f894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 540718701}
+  patrolPoints:
+  - {fileID: 1375431548}
+  - {fileID: 2063173217}
+  - {fileID: 1358698403}
+  - {fileID: 1161362885}
+  patrolWaitTime: 1
+  detectionRadius: 10
+  fieldOfViewAngle: 110
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 64
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 0
+  chaseSpeed: 5
+  normalSpeed: 3.5
+  searchDuration: 5
+  searchRadius: 5
 --- !u!1001 &540954948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7239,6 +7602,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (236)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7313,6 +7680,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (289)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7397,6 +7768,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (337)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7489,6 +7864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7549,6 +7928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7568,6 +7951,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -7667,6 +8054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2244155
@@ -7738,6 +8129,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -7860,6 +8255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7933,6 +8332,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (242)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8105,6 +8508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8168,6 +8575,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (264)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8345,6 +8756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (350)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8455,6 +8870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (186)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8518,6 +8937,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8583,6 +9006,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8669,6 +9096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8688,6 +9119,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -8781,6 +9216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3365341
@@ -8853,6 +9292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.6912716
@@ -8924,6 +9367,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -9041,6 +9488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (345)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9075,6 +9526,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -9202,6 +9657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (329)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9281,6 +9740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (205)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9355,6 +9818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (341)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9424,6 +9891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9453,6 +9924,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -9526,6 +10001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.638519
@@ -9597,6 +10076,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -9714,6 +10197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9777,6 +10264,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (260)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9858,6 +10349,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10007,6 +10502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2244155
@@ -10123,6 +10622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (298)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10191,6 +10694,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (300)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10278,6 +10785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10338,6 +10849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10357,6 +10872,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -10429,6 +10948,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -10648,6 +11171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10753,6 +11280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10817,6 +11348,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10887,6 +11422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (303)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10952,6 +11491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10971,6 +11514,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -11043,6 +11590,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -11160,6 +11711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (308)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11246,6 +11801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11315,6 +11874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (215)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11379,6 +11942,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11449,6 +12016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11468,6 +12039,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -11541,6 +12116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0836264
@@ -11601,6 +12180,114 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 5573109961440900665}
   m_SourcePrefab: {fileID: 100100000, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+--- !u!1 &830586158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 830586162}
+  - component: {fileID: 830586161}
+  - component: {fileID: 830586160}
+  - component: {fileID: 830586159}
+  m_Layer: 6
+  m_Name: TestEnemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &830586159
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830586158}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &830586160
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830586158}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &830586161
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830586158}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &830586162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830586158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.65, y: 2.5, z: 1.76}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &830606756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11612,6 +12299,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -11739,6 +12430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.92309576
@@ -11815,6 +12510,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -11937,6 +12636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (276)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11977,6 +12680,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -12090,6 +12797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12109,6 +12820,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -12186,6 +12901,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -12303,6 +13022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12362,6 +13085,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12427,6 +13154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12451,6 +13182,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -12568,6 +13303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (274)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12653,6 +13392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (325)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12737,6 +13480,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (292)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12870,6 +13617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9638732
@@ -12996,6 +13747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (247)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13069,6 +13824,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (294)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13160,6 +13919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13219,6 +13982,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13367,6 +14134,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -13520,6 +14291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (297)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13544,6 +14319,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -13657,6 +14436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13722,6 +14505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13746,6 +14533,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -13863,6 +14654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (259)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13927,6 +14722,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13998,6 +14797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14017,6 +14820,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -14089,6 +14896,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -14171,6 +14982,41 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.001, y: 1.054, z: 0.003}
   m_TimeToStationary: 0.5
+--- !u!1 &1035112830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1035112831}
+  m_Layer: 0
+  m_Name: PatrolPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1035112831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035112830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.977821, y: 0, z: -2.3082175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1375431548}
+  - {fileID: 2063173217}
+  - {fileID: 1358698403}
+  - {fileID: 1161362885}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1037076949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
@@ -14233,6 +15079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14293,6 +15143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14312,6 +15166,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -14429,6 +15287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14507,6 +15369,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (254)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14592,6 +15458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (328)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14631,6 +15501,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -14748,6 +15622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14812,6 +15690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14871,6 +15753,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14956,6 +15842,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15073,6 +15963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (136)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15147,6 +16041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (219)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15215,6 +16113,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (261)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15316,6 +16218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (295)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15401,6 +16307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15466,6 +16376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15485,6 +16399,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -15603,6 +16521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15616,6 +16538,38 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
   m_PrefabInstance: {fileID: 1643201858}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1161362884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1161362885}
+  m_Layer: 0
+  m_Name: PatrolPoint_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1161362885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161362884}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.2, y: 0, z: 6.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1778929208}
+  m_Father: {fileID: 1035112831}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1161967212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15671,6 +16625,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (203)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15740,6 +16698,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (283)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15826,6 +16788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15850,6 +16816,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -15972,6 +16942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16047,6 +17021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16110,6 +17088,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (223)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16196,6 +17178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (252)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16277,6 +17263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16317,6 +17307,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -16389,6 +17383,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -16521,6 +17519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (225)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16561,6 +17563,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -16643,6 +17649,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -16760,6 +17770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16779,6 +17793,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -16954,6 +17972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2244155
@@ -17025,6 +18047,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -17098,6 +18124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3171018
@@ -17169,6 +18199,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -17287,6 +18321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17350,6 +18388,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (278)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17441,6 +18483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17500,6 +18546,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17582,6 +18632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17661,6 +18715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17726,6 +18784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17750,6 +18812,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -17854,6 +18920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8881706
@@ -17924,6 +18994,38 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
   m_PrefabInstance: {fileID: 1976378229}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1358698402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1358698403}
+  m_Layer: 0
+  m_Name: PatrolPoint_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1358698403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358698402}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.21, y: 0, z: 21.37}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2045526145}
+  m_Father: {fileID: 1035112831}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1359682051 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
@@ -18020,6 +19122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (320)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18089,6 +19195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (321)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18118,6 +19228,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.001, y: 1.054, z: 0.003}
   m_TimeToStationary: 0.5
+--- !u!1 &1375431547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1375431548}
+  m_Layer: 0
+  m_Name: PatrolPoint_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1375431548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375431547}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -41.91, y: 0, z: 20.22}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1628058112}
+  m_Father: {fileID: 1035112831}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1376000417 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
@@ -18184,6 +19326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (311)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18224,6 +19370,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -18346,6 +19496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (230)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18431,6 +19585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (207)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18500,6 +19658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18519,6 +19681,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -18658,6 +19824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18794,6 +19964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18857,6 +20031,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (266)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18933,6 +20111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18997,6 +20179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19056,6 +20242,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19178,6 +20368,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -19306,6 +20500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19330,6 +20528,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -19443,6 +20645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19506,6 +20712,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19695,6 +20905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19758,6 +20972,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (316)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19871,6 +21089,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -19988,6 +21210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20053,6 +21279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20112,6 +21342,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20245,6 +21479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyPyramid (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5311071
@@ -20316,6 +21554,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -20453,6 +21695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (333)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20508,6 +21754,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -20630,6 +21880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20751,6 +22005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20815,6 +22073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20875,6 +22137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20883,6 +22149,114 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 5080156303320678296}
   m_SourcePrefab: {fileID: 100100000, guid: 81044204068d943dd8e46160655d2108, type: 3}
+--- !u!1 &1628058111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1628058112}
+  - component: {fileID: 1628058115}
+  - component: {fileID: 1628058114}
+  - component: {fileID: 1628058113}
+  m_Layer: 0
+  m_Name: Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1628058112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628058111}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1375431548}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1628058113
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628058111}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1628058114
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628058111}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1628058115
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628058111}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1631394581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20938,6 +22312,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21045,6 +22423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (286)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21130,6 +22512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (268)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21170,6 +22556,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -21308,6 +22698,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21371,6 +22765,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (204)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21436,6 +22834,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21505,6 +22907,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21579,6 +22985,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (312)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21682,6 +23092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21757,6 +23171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21781,6 +23199,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -21858,6 +23280,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -21980,6 +23406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22043,6 +23473,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (211)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22112,6 +23546,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22184,6 +23622,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -22297,6 +23739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22360,6 +23806,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22435,6 +23885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22498,6 +23952,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (162)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22569,6 +24027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22588,6 +24050,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -22736,6 +24202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22776,6 +24246,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -22853,6 +24327,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -22975,6 +24453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (307)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23015,6 +24497,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -23076,6 +24562,114 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 6650034366308464646}
   m_SourcePrefab: {fileID: 100100000, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+--- !u!1 &1778929207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1778929208}
+  - component: {fileID: 1778929211}
+  - component: {fileID: 1778929210}
+  - component: {fileID: 1778929209}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1778929208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778929207}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1161362885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1778929209
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778929207}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1778929210
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778929207}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1778929211
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778929207}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1780227773 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
@@ -23097,6 +24691,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -23215,6 +24813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23284,6 +24886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (238)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23324,6 +24930,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -23462,6 +25072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23525,6 +25139,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (272)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23698,6 +25316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23717,6 +25339,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -23830,6 +25456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23909,6 +25539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (213)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23949,6 +25583,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -24026,6 +25664,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -24143,6 +25785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (206)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24221,6 +25867,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24306,6 +25956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (280)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24367,6 +26021,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -24484,6 +26142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (282)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24555,6 +26217,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -24687,6 +26353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (288)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24777,6 +26447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (217)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24863,6 +26537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24892,6 +26570,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -25122,6 +26804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25186,6 +26872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25245,6 +26935,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25310,6 +27004,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25442,6 +27140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (169)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25506,6 +27208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25525,6 +27231,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -25647,6 +27357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25716,6 +27430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (176)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25735,6 +27453,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -25858,6 +27580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25949,6 +27675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26014,6 +27744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26078,6 +27812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (185)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26086,6 +27824,114 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 5471782084131897747}
   m_SourcePrefab: {fileID: 100100000, guid: 51510de34f82041149d25090ec962e10, type: 3}
+--- !u!1 &2016252540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016252541}
+  - component: {fileID: 2016252544}
+  - component: {fileID: 2016252543}
+  - component: {fileID: 2016252542}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2016252541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016252540}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 2063173217}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2016252542
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016252540}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2016252543
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016252540}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2016252544
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016252540}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &2025795581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26141,6 +27987,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (299)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26223,6 +28073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26297,6 +28151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (334)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26337,6 +28195,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -26408,6 +28270,114 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
   m_PrefabInstance: {fileID: 1333884179}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2045526144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2045526145}
+  - component: {fileID: 2045526148}
+  - component: {fileID: 2045526147}
+  - component: {fileID: 2045526146}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2045526145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045526144}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1358698403}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2045526146
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045526144}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2045526147
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045526144}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2045526148
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045526144}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &2052108308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26419,6 +28389,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -26537,6 +28511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26556,6 +28534,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -26669,6 +28651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26728,6 +28714,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26819,6 +28809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (262)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26848,6 +28842,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.001, y: 1.054, z: 0.003}
   m_TimeToStationary: 0.5
+--- !u!1 &2063173216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2063173217}
+  m_Layer: 0
+  m_Name: PatrolPoint_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2063173217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063173216}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.36, y: 0, z: 30.86}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2016252541}
+  m_Father: {fileID: 1035112831}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2066639756 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
@@ -26908,6 +28934,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26972,6 +29002,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27048,6 +29082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27111,6 +29149,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (234)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27197,6 +29239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27256,6 +29302,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27317,6 +29367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27336,6 +29390,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -27423,6 +29481,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -27541,6 +29603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27606,6 +29672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27625,6 +29695,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -27742,6 +29816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27806,6 +29884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27830,6 +29912,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -27947,6 +30033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (270)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27992,6 +30082,10 @@ PrefabInstance:
     - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_Name
       value: PolyPyramid (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7790047697380616352, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
       propertyPath: m_LocalScale.x
@@ -28130,6 +30224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_Tile_Night (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28193,6 +30291,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (246)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28275,6 +30377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Tile_Block1 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28334,6 +30440,10 @@ PrefabInstance:
     - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
       propertyPath: m_Name
       value: Wall_Tile_Block1 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28398,6 +30508,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (232)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28483,6 +30597,10 @@ PrefabInstance:
     - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
       propertyPath: m_Name
       value: Grass_Tile_Night (317)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34719,3 +36837,5 @@ SceneRoots:
   - {fileID: 6791633}
   - {fileID: 1408922412}
   - {fileID: 540718705}
+  - {fileID: 1035112831}
+  - {fileID: 830586162}
