@@ -6,22 +6,35 @@ public class CollectAmmoAction : UtilityAction
 
     public override float CalculateUtility()
     {
-        // No ammo crate available? Utility = 0
+        // Calculate ammo percentage
+        float ammoPercentage = (float)strategist.currentAmmo / strategist.maxAmmo;
+
+        // If ammo is above 70%, don't bother collecting more
+        if (ammoPercentage > 0.7f)
+        {
+            return 0f;
+        }
+
+        // No ammo box available? Utility = 0
         AmmoBox nearestAmmoBox = strategist.FindNearestAmmoBox();
         if (nearestAmmoBox == null)
+        {
+            Debug.Log("[CollectAmmo] No ammo box available, returning 0 utility");
             return 0f;
+        }
 
         // Calculate utility based on ammo percentage (lower ammo = higher utility)
-        float ammoPercentage = (float)strategist.currentAmmo / strategist.maxAmmo;
-        float ammoUrgency = 1f - ammoPercentage; // 0.0 (full ammo) to 1.0 (no ammo)
+        float ammoUrgency = 1f - ammoPercentage;
 
         // Factor in distance
         float distance = Vector3.Distance(strategist.transform.position, nearestAmmoBox.transform.position);
         float maxDistance = 50f;
         float distanceFactor = 1f - Mathf.Clamp01(distance / maxDistance);
 
-        // Combine factors
-        float utility = (ammoUrgency * 0.7f) + (distanceFactor * 0.3f);
+        // Combine factors (ammo need is more important than distance)
+        float utility = (ammoUrgency * 0.8f) + (distanceFactor * 0.2f);
+
+        Debug.Log($"[CollectAmmo] Urgency: {ammoUrgency:F2}, Distance Factor: {distanceFactor:F2}, Final Utility: {utility:F2}");
 
         return utility;
     }
@@ -31,7 +44,10 @@ public class CollectAmmoAction : UtilityAction
         AmmoBox nearestAmmoBox = strategist.FindNearestAmmoBox();
 
         if (nearestAmmoBox == null)
+        {
+            strategist.TargetAmmoBox = null;
             return;
+        }
 
         // Move towards ammo box
         strategist.agent.speed = strategist.normalSpeed;

@@ -6,13 +6,19 @@ public class HealAction : UtilityAction
 
     public override float CalculateUtility()
     {
+        float healthPercentage = (float)strategist.currentHealth / strategist.maxHealth;
+
+        // If health is above 70%, don't bother healing
+        if (healthPercentage > 0.7f)
+            return 0f;
+
+
         // No firstaid available? Utility = 0
         Firstaid nearestFirstaid = strategist.FindNearestFirstaid();
         if (nearestFirstaid == null)
             return 0f;
 
         // Calculate utility based on health percentage (lower health = higher utility)
-        float healthPercentage = strategist.currentHealth / strategist.maxHealth;
         float healthUrgency = 1f - healthPercentage; // 0.0 (full health) to 1.0 (no health)
 
         // Factor in distance (closer = better)
@@ -31,8 +37,10 @@ public class HealAction : UtilityAction
         Firstaid nearestFirstaid = strategist.FindNearestFirstaid();
 
         if (nearestFirstaid == null)
+        {
+            strategist.TargetFirstaid = null;
             return;
-
+        }
         // Move towards firstaid
         strategist.agent.speed = strategist.normalSpeed;
         strategist.agent.SetDestination(nearestFirstaid.transform.position);
@@ -46,6 +54,8 @@ public class HealAction : UtilityAction
             strategist.Heal(nearestFirstaid.healAmount);
             nearestFirstaid.Collect();
             strategist.TargetFirstaid = null;
+
+            Debug.Log("Firstaid collected");
         }
     }
 }

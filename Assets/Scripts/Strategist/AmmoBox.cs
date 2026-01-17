@@ -18,12 +18,21 @@ public class AmmoBox : MonoBehaviour
 
     public void Collect()
     {
+        if (!isAvailable)
+        {
+            Debug.LogWarning("AmmoBox already collected!");
+            return;  // Already collected, don't do anything
+        }
+
+        isAvailable = false;
+
+        // Hide all child renderers
         foreach (Renderer renderer in childRenderers)
         {
             renderer.enabled = false;
         }
 
-        // Disable collider so it can't be detected
+        // Disable collider
         if (col != null)
         {
             col.enabled = false;

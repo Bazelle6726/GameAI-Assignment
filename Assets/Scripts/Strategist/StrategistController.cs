@@ -35,7 +35,7 @@ public class StrategistController : MonoBehaviour
 
 
     private List<UtilityAction> availableActions;
-    private UtilityAction CurrentAction;
+    private UtilityAction currentAction;
 
     public Transform CurrentEnemy { get; set; }
     public Firstaid TargetFirstaid { get; set; }
@@ -80,7 +80,7 @@ public class StrategistController : MonoBehaviour
         }
 
         // Execute current action
-        CurrentAction?.Execute();
+        currentAction?.Execute();
     }
 
 
@@ -94,9 +94,6 @@ public class StrategistController : MonoBehaviour
         {
             float utility = action.CalculateUtility();
 
-            // Debug utility scores
-            Debug.Log($"{action.GetActionName()}: utility = {utility:F2}");
-
             if (utility > highestUtility)
             {
                 highestUtility = utility;
@@ -105,10 +102,10 @@ public class StrategistController : MonoBehaviour
         }
 
         // Switch to best action if it changed
-        if (bestAction != CurrentAction && bestAction != null)
+        if (bestAction != currentAction && bestAction != null)
         {
-            CurrentAction = bestAction;
-            Debug.Log($"<color=cyan>Strategist switching to: {CurrentAction.GetActionName()} (utility: {highestUtility:F2})</color>");
+            currentAction = bestAction;
+            Debug.Log($"<color=cyan>Strategist switching to: {currentAction.GetActionName()} (utility: {highestUtility:F2})</color>");
         }
     }
 
