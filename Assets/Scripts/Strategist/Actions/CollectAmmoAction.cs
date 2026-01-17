@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CollectAmmo : UtilityAction
+public class CollectAmmoAction : UtilityAction
 {
     public CollectAmmoAction(StrategistController strategist) : base(strategist) { }
 
@@ -35,12 +35,12 @@ public class CollectAmmo : UtilityAction
 
         // Move towards ammo box
         strategist.agent.speed = strategist.normalSpeed;
-        strategist.agent.SetDestination(nearestAmmoCrate.transform.position);
-        strategist.TargetAmmoCrate = nearestAmmoCrate;
+        strategist.agent.SetDestination(nearestAmmoBox.transform.position);
+        strategist.TargetAmmoBox = nearestAmmoBox;
 
         // Check if close enough to collect
-        float distance = Vector3.Distance(strategist.transform.position, nearestAmmoCrate.transform.position);
-        if (distance < 1.5f && nearestAmmoCrate.isAvailable)
+        float distance = Vector3.Distance(strategist.transform.position, nearestAmmoBox.transform.position);
+        if (distance < 1.5f && nearestAmmoBox.isAvailable)
         {
             // Collect ammo box
             strategist.AddAmmo(nearestAmmoBox.ammoAmount);

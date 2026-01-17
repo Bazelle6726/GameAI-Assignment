@@ -1,8 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// Action: Find and collect health packs when health is low
-/// </summary>
 public class HealAction : UtilityAction
 {
     public HealAction(StrategistController strategist) : base(strategist) { }

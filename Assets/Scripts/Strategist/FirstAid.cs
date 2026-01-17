@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FirstAid : MonoBehaviour
+public class Firstaid : MonoBehaviour
 {
     public float healAmount = 25f;
     public bool isAvailable = true;
@@ -15,7 +15,7 @@ public class FirstAid : MonoBehaviour
         col = GetComponent<Collider>();
     }
 
-    private void Collect()
+    public void Collect()
     {
         if (!isAvailable) return;
         isAvailable = false;

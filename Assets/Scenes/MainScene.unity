@@ -3520,6 +3520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 25
   isAvailable: 1
+  respawnTime: 10
 --- !u!1 &272086793 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
@@ -4178,6 +4179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 25
   isAvailable: 1
+  respawnTime: 10
 --- !u!1 &342830003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
@@ -4544,6 +4546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 25
   isAvailable: 1
+  respawnTime: 10
 --- !u!1 &373097897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7073006471898612376, guid: 81044204068d943dd8e46160655d2108, type: 3}
@@ -7083,6 +7086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 30
   isAvailable: 1
+  respawnTime: 15
 --- !u!1001 &500345349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7806,7 +7810,7 @@ GameObject:
   - component: {fileID: 540718702}
   - component: {fileID: 540718701}
   - component: {fileID: 540718706}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Guard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8951,6 +8955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 25
   isAvailable: 1
+  respawnTime: 10
 --- !u!1001 &601185388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9222,6 +9227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 30
   isAvailable: 1
+  respawnTime: 15
 --- !u!1001 &626767583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11129,6 +11135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 30
   isAvailable: 1
+  respawnTime: 15
 --- !u!1 &738854890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
@@ -11860,6 +11867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 30
   isAvailable: 1
+  respawnTime: 15
 --- !u!1001 &766438375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14451,6 +14459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 30
   isAvailable: 1
+  respawnTime: 15
 --- !u!1001 &903935197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14996,6 +15005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 25
   isAvailable: 1
+  respawnTime: 10
 --- !u!1 &933247548 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
@@ -19266,6 +19276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 30
   isAvailable: 1
+  respawnTime: 15
 --- !u!1001 &1271429262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20478,6 +20489,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1366659359}
+  - component: {fileID: 1366659360}
+  - component: {fileID: 1366659361}
   m_Layer: 0
   m_Name: Strategist
   m_TagString: Untagged
@@ -20501,6 +20514,59 @@ Transform:
   - {fileID: 2045646450}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!195 &1366659360
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366659358}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1366659361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366659358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e24eb92f08ca8c469ef9666708413d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 1366659360}
+  maxHealth: 100
+  currentHealth: 100
+  maxAmmo: 90
+  currentAmmo: 30
+  attackRange: 8
+  attackDamage: 10
+  attackCooldown: 1
+  lastAttackTime: 0
+  detectionRadius: 15
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  normalSpeed: 4
+  fleeSpeed: 6
+  actionEvaluationInterval: 0.2
 --- !u!1 &1369476199 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
@@ -21961,6 +22027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 30
   isAvailable: 1
+  respawnTime: 15
 --- !u!1001 &1450694244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22510,6 +22577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 25
   isAvailable: 1
+  respawnTime: 10
 --- !u!1001 &1473958037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23180,6 +23248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 30
   isAvailable: 1
+  respawnTime: 15
 --- !u!1001 &1529254006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27477,6 +27546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 25
   isAvailable: 1
+  respawnTime: 10
 --- !u!1001 &1823027428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29162,6 +29232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 25
   isAvailable: 1
+  respawnTime: 10
 --- !u!1 &1932687173 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2830199496281097202, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
@@ -30990,7 +31061,7 @@ Transform:
   m_GameObject: {fileID: 2045646449}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

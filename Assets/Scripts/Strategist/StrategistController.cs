@@ -36,6 +36,11 @@ public class StrategistController : MonoBehaviour
 
     private List<UtilityAction> availableActions;
     private UtilityAction CurrentAction;
+
+    public Transform CurrentEnemy { get; set; }
+    public Firstaid TargetFirstaid { get; set; }
+    public AmmoBox TargetAmmoBox { get; set; }
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -64,7 +69,7 @@ public class StrategistController : MonoBehaviour
         currentAmmo = Mathf.Clamp(currentAmmo, 0, maxAmmo);
 
         // Detect threats
-        DetectThreats();
+        DetectEnemy();
 
         // Evaluate actions at intervals
         evaluationTimer += Time.deltaTime;
@@ -75,7 +80,7 @@ public class StrategistController : MonoBehaviour
         }
 
         // Execute current action
-        currentAction?.Execute();
+        CurrentAction?.Execute();
     }
 
 
@@ -100,39 +105,39 @@ public class StrategistController : MonoBehaviour
         }
 
         // Switch to best action if it changed
-        if (bestAction != currentAction && bestAction != null)
+        if (bestAction != CurrentAction && bestAction != null)
         {
-            currentAction = bestAction;
-            Debug.Log($"<color=cyan>Strategist switching to: {currentAction.GetActionName()} (utility: {highestUtility:F2})</color>");
+            CurrentAction = bestAction;
+            Debug.Log($"<color=cyan>Strategist switching to: {CurrentAction.GetActionName()} (utility: {highestUtility:F2})</color>");
         }
     }
 
 
     void DetectEnemy()
     {
-        Collider[] threats = Physics.OverlapSphere(transform.position, detectionRadius, enemyMask);
+        Collider[] enemies = Physics.OverlapSphere(transform.position, detectionRadius, enemyLayer);
 
-        if (threats.Length > 0)
+        if (enemies.Length > 0)
         {
             // Find closest threat
-            Transform closestThreat = null;
+            Transform closestEnemy = null;
             float closestDistance = Mathf.Infinity;
 
-            foreach (Collider threat in threats)
+            foreach (Collider enemy in enemies)
             {
-                float distance = Vector3.Distance(transform.position, threat.transform.position);
+                float distance = Vector3.Distance(transform.position, enemy.transform.position);
                 if (distance < closestDistance)
                 {
                     closestDistance = distance;
-                    closestThreat = threat.transform;
+                    closestEnemy = enemy.transform;
                 }
             }
 
-            CurrentThreat = closestThreat;
+            CurrentEnemy = closestEnemy;
         }
         else
         {
-            CurrentThreat = null;
+            CurrentEnemy = null;
         }
     }
 
@@ -225,10 +230,10 @@ public class StrategistController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, attackRange);
 
         // Line to current threat
-        if (CurrentThreat != null)
+        if (CurrentEnemy != null)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawLine(transform.position, CurrentThreat.position);
+            Gizmos.DrawLine(transform.position, CurrentEnemy.position);
         }
 
         // Line to target firstaid

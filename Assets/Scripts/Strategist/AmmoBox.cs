@@ -7,22 +7,27 @@ public class AmmoBox : MonoBehaviour
     public bool isAvailable = true;
     public float respawnTime = 15f;
 
-    private Renderer meshRenderer;
+    private Renderer[] childRenderers;
     private Collider col;
 
     void Start()
     {
-        meshRenderer = GetComponent<Renderer>();
         col = GetComponent<Collider>();
+        childRenderers = GetComponentsInChildren<Renderer>();
     }
 
-    public void collect()
+    public void Collect()
     {
-        if (!isAvailable) return;
-        isAvailable = false;
+        foreach (Renderer renderer in childRenderers)
+        {
+            renderer.enabled = false;
+        }
 
-        meshRenderer.enabled = false;
-        col.enabled = false;
+        // Disable collider so it can't be detected
+        if (col != null)
+        {
+            col.enabled = false;
+        }
 
         Invoke("Respawn", respawnTime);
 
@@ -31,20 +36,24 @@ public class AmmoBox : MonoBehaviour
 
     void Respawn()
     {
-        isAvailable = true;
-        meshRenderer.enabled = true;
-        col.enabled = true;
+        foreach (Renderer renderer in childRenderers)
+        {
+            renderer.enabled = true;
+        }
+
+        if (col != null)
+        {
+            col.enabled = true;
+        }
+        Debug.Log("Ammo box respawned");
     }
+
     void OnDrawGizmos()
     {
         if (isAvailable)
         {
-            Gizmos.color = Color.blue;
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, 0.5f);
         }
-        else
-        {
-            Gizmos.color = Color.gray;
-        }
-        Gizmos.DrawCube(transform.position, Vector3.one * 0.5f);
     }
 }
