@@ -13,6 +13,11 @@ public class Firstaid : MonoBehaviour
     {
         meshRenderer = GetComponent<Renderer>();
         col = GetComponent<Collider>();
+
+        if (col != null)
+        {
+            col.isTrigger = true;
+        }
     }
 
     public void Collect()
@@ -47,5 +52,16 @@ public class Firstaid : MonoBehaviour
             Gizmos.color = Color.red;
         }
         Gizmos.DrawSphere(transform.position, 0.5f);
+    }
+
+    void OnTriggerEnter(Collider collision)
+    {
+        // Check if it's a Gladiator
+        GladiatorAgent gladiator = collision.GetComponent<GladiatorAgent>();
+        if (gladiator != null && gladiator.IsAlive)
+        {
+            gladiator.CollectResource(healAmount);  // Heal + reward
+            Collect();  // Respawn after 10 seconds
+        }
     }
 }

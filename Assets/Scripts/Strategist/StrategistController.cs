@@ -141,7 +141,7 @@ public class StrategistController : MonoBehaviour
 
     public Firstaid FindNearestFirstaid()
     {
-        Firstaid[] firstAids = FindObjectsOfType<Firstaid>();
+        Firstaid[] firstAids = FindObjectsByType<Firstaid>(FindObjectsSortMode.None);
         Firstaid nearest = null;
         float closestDistance = Mathf.Infinity;
 
@@ -163,7 +163,7 @@ public class StrategistController : MonoBehaviour
 
     public AmmoBox FindNearestAmmoBox()
     {
-        AmmoBox[] ammoBoxes = FindObjectsOfType<AmmoBox>();
+        AmmoBox[] ammoBoxes = FindObjectsByType<AmmoBox>(FindObjectsSortMode.None);
         AmmoBox nearest = null;
         float closestDistance = Mathf.Infinity;
 
