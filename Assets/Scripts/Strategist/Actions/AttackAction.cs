@@ -68,6 +68,12 @@ public class AttackAction : UtilityAction
             {
                 strategist.currentAmmo--;
                 strategist.lastAttackTime = Time.time;  // Update last attack time
+                GuardController guard = strategist.CurrentEnemy.GetComponent<GuardController>();
+                if (guard != null)
+                {
+                    guard.TakeDamage(strategist.attackDamage);
+                    Debug.Log($"Strategist attacked Guard for {strategist.attackDamage} damage!");
+                }
                 Debug.Log($"Strategist attacking! Ammo remaining: {strategist.currentAmmo}");
                 // Here you would add actual attack logic (e.g., shooting, applying damage)
             }

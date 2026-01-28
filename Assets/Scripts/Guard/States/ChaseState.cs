@@ -35,6 +35,27 @@ public class ChaseState : GuardState
             lostTargetTimer = 0f;
 
             Debug.DrawLine(guard.transform.position, guard.CurrentTarget.position, Color.red);
+            float distanceToTarget = Vector3.Distance(guard.transform.position, guard.CurrentTarget.position);
+            if (distanceToTarget < guard.attackRange)
+            {
+                // Stop moving and attack
+                guard.agent.SetDestination(guard.transform.position);
+
+                // Attack with cooldown
+                if (Time.time - guard.lastAttackTime > guard.attackCooldown)
+                {
+                    guard.lastAttackTime = Time.time;
+
+                    // Try to damage Strategist
+                    StrategistController strategist = guard.CurrentTarget.GetComponent<StrategistController>();
+                    if (strategist != null)
+                    {
+                        strategist.TakeDamage(guard.attackDamage);
+                        Debug.Log($"Guard attacked Strategist for {guard.attackDamage} damage!");
+                    }
+                }
+
+            }
         }
         else
         {
@@ -63,6 +84,8 @@ public class ChaseState : GuardState
             }
         }
     }
+
+
 
     public override void Exit()
     {

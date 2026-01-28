@@ -24,6 +24,15 @@ public class GuardController : MonoBehaviour
     public float searchDuration = 5f;
     public float searchRadius = 5f;
 
+    [Header("Combat")]
+    public float maxHealth = 100f;
+    public float currentHealth = 100f;
+    public float attackDamage = 15f;
+    public float attackRange = 2f;
+    public float attackCooldown = 1.5f;
+    public float lastAttackTime = 1f;
+
+
     // State Machine
     private GuardState currentState;
 
@@ -126,6 +135,23 @@ public class GuardController : MonoBehaviour
             return false;
 
         return true;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+        Debug.Log($"Guard took {damage} damage! Health: {currentHealth}/{maxHealth}");
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("Guard died!");
+        gameObject.SetActive(false);
     }
 
     // Visual debugging in Scene view

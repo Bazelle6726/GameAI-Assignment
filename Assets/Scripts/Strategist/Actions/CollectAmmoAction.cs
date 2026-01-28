@@ -10,7 +10,7 @@ public class CollectAmmoAction : UtilityAction
         float ammoPercentage = (float)strategist.currentAmmo / strategist.maxAmmo;
 
         // If ammo is above 70%, don't bother collecting more
-        if (ammoPercentage > 0.7f)
+        if (ammoPercentage > 0.3f)
         {
             return 0f;
         }

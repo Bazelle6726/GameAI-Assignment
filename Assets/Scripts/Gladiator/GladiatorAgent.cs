@@ -236,7 +236,7 @@ public class GladiatorAgent : Agent
         if (!IsAlive)
         {
             Debug.Log($"[{gameObject.name}] DIED!");
-            EndEpisode();
+            // EndEpisode();
         }
     }
 

@@ -12,7 +12,7 @@ public class StrategistController : MonoBehaviour
     public float maxHealth = 100f;
     public float currentHealth = 100f;
     public int maxAmmo = 90;
-    public int currentAmmo = 30;
+    public int currentAmmo = 90;
 
     [Header("Combat Settings")]
     public float attackRange = 8f;
@@ -58,7 +58,8 @@ public class StrategistController : MonoBehaviour
             new HealAction(this),
             new CollectAmmoAction(this),
             new HideAction(this),
-            new AttackAction(this)
+            new AttackAction(this),
+            new IdleAction(this)
         };
     }
 
