@@ -36,6 +36,9 @@ public class GladiatorAgent : Agent
     private float damageGivenThisStep = 0f;
     private int agentIndex = -1;
 
+    // For manual input handling
+    private bool useManualInput = false;
+
     public float CurrentHealth => currentHealth;
     public bool IsAlive => currentHealth > 0;
 
@@ -52,26 +55,18 @@ public class GladiatorAgent : Agent
         {
             Debug.LogError($"GladiatorAgent {gameObject.name} could not find GladiatorEnvironment!");
         }
-        else
-        {
-            Debug.Log($"[{gameObject.name}] Found GladiatorEnvironment");
-        }
 
         agentIndex = transform.GetSiblingIndex();
-        Debug.Log($"[{gameObject.name}] Agent index: {agentIndex}");
 
         if (rb == null)
         {
             Debug.LogError($"[{gameObject.name}] No Rigidbody found!");
             rb = gameObject.AddComponent<Rigidbody>();
         }
-        else
-        {
-            Debug.Log($"[{gameObject.name}] Rigidbody found. Gravity: {!rb.isKinematic}");
-        }
 
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
         rb.useGravity = true;
+        Debug.Log($"[{gameObject.name}] Initialize complete");
     }
 
     public override void OnEpisodeBegin()
@@ -86,12 +81,10 @@ public class GladiatorAgent : Agent
         {
             Vector3 spawnPos = environment.GetSpawnPosition(agentIndex);
             transform.position = spawnPos;
-            Debug.Log($"[{gameObject.name}] Spawned at {spawnPos}");
         }
         else
         {
             transform.position = new Vector3(0, 1f, 0);
-            Debug.Log($"[{gameObject.name}] Fallback spawn at (0, 1, 0)");
         }
 
         transform.rotation = Quaternion.Euler(0, Random.Range(0f, 360f), 0);
@@ -100,6 +93,41 @@ public class GladiatorAgent : Agent
         {
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
+        }
+    }
+
+    void Update()
+    {
+        // Manual input handling for testing
+        if (useManualInput)
+        {
+            HandleManualInput();
+        }
+    }
+
+    private void HandleManualInput()
+    {
+        // Get input
+        float moveInput = Input.GetKey(KeyCode.W) ? 1f : (Input.GetKey(KeyCode.S) ? -1f : 0f);
+        float turnInput = Input.GetKey(KeyCode.D) ? 1f : (Input.GetKey(KeyCode.A) ? -1f : 0f);
+        int attackInput = Input.GetKey(KeyCode.Space) ? 1 : 0;
+
+        // Apply movement
+        ApplyMovement(moveInput, turnInput);
+
+        // Apply attack
+        if (attackInput == 1)
+        {
+            AttemptAttack();
+        }
+
+        // Rewards
+        AddReward(survivalReward);
+
+        if (damageGivenThisStep > 0)
+        {
+            AddReward(damageGivenReward * damageGivenThisStep);
+            damageGivenThisStep = 0f;
         }
     }
 
@@ -140,29 +168,28 @@ public class GladiatorAgent : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-        float moveForward = actions.ContinuousActions[0];
-        float turnDirection = actions.ContinuousActions[1];
-        int attackAction = actions.DiscreteActions[0];
-
-        // DEBUG
-        if (moveForward != 0 || turnDirection != 0 || attackAction != 0)
+        // Only use ML-Agents actions during actual training
+        // For now, manual input takes precedence
+        if (!useManualInput)
         {
-            Debug.Log($"[{gameObject.name}] Action - Move: {moveForward:F2}, Turn: {turnDirection:F2}, Attack: {attackAction}");
-        }
+            float moveForward = actions.ContinuousActions[0];
+            float turnDirection = actions.ContinuousActions[1];
+            int attackAction = actions.DiscreteActions[0];
 
-        ApplyMovement(moveForward, turnDirection);
+            ApplyMovement(moveForward, turnDirection);
 
-        if (attackAction == 1)
-        {
-            AttemptAttack();
-        }
+            if (attackAction == 1)
+            {
+                AttemptAttack();
+            }
 
-        AddReward(survivalReward);
+            AddReward(survivalReward);
 
-        if (damageGivenThisStep > 0)
-        {
-            AddReward(damageGivenReward * damageGivenThisStep);
-            damageGivenThisStep = 0f;
+            if (damageGivenThisStep > 0)
+            {
+                AddReward(damageGivenReward * damageGivenThisStep);
+                damageGivenThisStep = 0f;
+            }
         }
     }
 
@@ -171,7 +198,7 @@ public class GladiatorAgent : Agent
         Vector3 moveDirection = transform.forward * moveForward * moveSpeed;
         rb.linearVelocity = new Vector3(moveDirection.x, rb.linearVelocity.y, moveDirection.z);
 
-        float rotationDelta = turnDirection * rotationSpeed * Time.fixedDeltaTime;
+        float rotationDelta = turnDirection * rotationSpeed * Time.deltaTime;
         transform.Rotate(0, rotationDelta, 0);
     }
 
@@ -270,16 +297,8 @@ public class GladiatorAgent : Agent
         ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
         ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
 
-        float moveInput = Input.GetKey(KeyCode.W) ? 1f : (Input.GetKey(KeyCode.S) ? -1f : 0f);
-        float turnInput = Input.GetKey(KeyCode.D) ? 1f : (Input.GetKey(KeyCode.A) ? -1f : 0f);
-
-        if (moveInput != 0 || turnInput != 0)
-        {
-            Debug.Log($"[{gameObject.name}] Heuristic input - Move: {moveInput}, Turn: {turnInput}");
-        }
-
-        continuousActions[0] = moveInput;
-        continuousActions[1] = turnInput;
+        continuousActions[0] = Input.GetKey(KeyCode.W) ? 1f : (Input.GetKey(KeyCode.S) ? -1f : 0f);
+        continuousActions[1] = Input.GetKey(KeyCode.D) ? 1f : (Input.GetKey(KeyCode.A) ? -1f : 0f);
         discreteActions[0] = Input.GetKey(KeyCode.Space) ? 1 : 0;
     }
 

@@ -1027,37 +1027,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4486896988945786361}
   m_SourcePrefab: {fileID: 100100000, guid: 51510de34f82041149d25090ec962e10, type: 3}
---- !u!1 &78454808
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 78454809}
-  m_Layer: 0
-  m_Name: GladiatorSpawnPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &78454809
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 78454808}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.3, y: 2.5, z: 26.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &80465275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26214,6 +26183,57 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 442220119774845415}
   m_SourcePrefab: {fileID: 100100000, guid: a08f59b910c8446a681d1932a4ffe269, type: 3}
+--- !u!1 &1737246631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1737246633}
+  - component: {fileID: 1737246632}
+  m_Layer: 0
+  m_Name: EnvironmentManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1737246632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737246631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3cbb8253fdf0e44b8e8eec5e9b5c64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arenaCenter: {x: 0, y: 0, z: 0}
+  arenaSize: {x: 39, y: 5, z: 39}
+  agentsPerMatch: 3
+  agentSpawnHeight: 1
+  episodeTimeoutSeconds: 300
+--- !u!4 &1737246633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737246631}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2061489583}
+  - {fileID: 1819180159}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1737613614 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6932407664559192993, guid: 51510de34f82041149d25090ec962e10, type: 3}
@@ -27563,6 +27583,76 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.08431538, y: 0.13678871}
   m_EdgeRadius: 0
+--- !u!1001 &1819180158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1737246633}
+    m_Modifications:
+    - target: {fileID: 2132750147993611254, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_BehaviorType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.498997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.532965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6954326874381152026, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_Constraints
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344277810276952649, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+      propertyPath: m_Name
+      value: Gladiator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+--- !u!4 &1819180159 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2335489997597071298, guid: eb9d47e4846569247a3999d5c79f00a6, type: 3}
+  m_PrefabInstance: {fileID: 1819180158}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1823027428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31504,6 +31594,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.270585, y: 2.2085168, z: 2.2940316}
   m_Center: {x: 0.0011420846, y: 1.0542797, z: 0.0029992461}
+--- !u!1 &2061489582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2061489583}
+  m_Layer: 0
+  m_Name: GladiatorSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2061489583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061489582}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.3, y: 2.5, z: 26.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1737246633}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2062357973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45666,9 +45787,9 @@ SceneRoots:
   - {fileID: 342236710}
   - {fileID: 1818605098}
   - {fileID: 260424118}
-  - {fileID: 78454809}
   - {fileID: 6791633}
   - {fileID: 1408922412}
   - {fileID: 6804412852307791197}
   - {fileID: 1035112831}
   - {fileID: 6414961878569598577}
+  - {fileID: 1737246633}
