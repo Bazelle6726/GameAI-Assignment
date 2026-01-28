@@ -30,17 +30,22 @@ public class AttackAction : UtilityAction
         // Combine factors
         float utility = (combatReadiness * 0.7f) + (distanceFactor * 0.3f);
 
-        // Don't attack if health is too low (below 40%)
-        if (healthPercentage < 0.4f)
+        // Don't attack if health is too low
+        if (healthPercentage < 0.6f)
         {
-            utility *= 0.3f; // Heavily reduce attack utility
+            utility *= 0.2f;
+        }
+
+        // Almost dead? Don't attack at all, focus on survival
+        if (healthPercentage < 0.3f)
+        {
+            return 0f;
         }
 
         return utility;
     }
 
     public override void Execute()
-
     {
         if (strategist.CurrentEnemy == null || strategist.currentAmmo <= 0)
             return;
@@ -67,15 +72,15 @@ public class AttackAction : UtilityAction
             if (Time.time - strategist.lastAttackTime > strategist.attackCooldown)
             {
                 strategist.currentAmmo--;
-                strategist.lastAttackTime = Time.time;  // Update last attack time
+                strategist.lastAttackTime = Time.time;
+
+                // Damage the Guard and tell them who attacked
                 GuardController guard = strategist.CurrentEnemy.GetComponent<GuardController>();
                 if (guard != null)
                 {
-                    guard.TakeDamage(strategist.attackDamage);
-                    Debug.Log($"Strategist attacked Guard for {strategist.attackDamage} damage!");
+                    guard.TakeDamage(strategist.attackDamage, strategist.transform);  // ← Added strategist.transform
+                    Debug.Log($"<color=cyan>Strategist attacked Guard for {strategist.attackDamage} damage!</color>");
                 }
-                Debug.Log($"Strategist attacking! Ammo remaining: {strategist.currentAmmo}");
-                // Here you would add actual attack logic (e.g., shooting, applying damage)
             }
         }
     }

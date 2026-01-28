@@ -74,15 +74,7 @@ public class ChaseState : GuardState
             }
         }
 
-        // Check if close enough to target (could add attack logic here)
-        if (guard.CurrentTarget != null)
-        {
-            float distanceToTarget = Vector3.Distance(guard.transform.position, guard.CurrentTarget.position);
-            if (distanceToTarget < 2f)
-            {
-                Debug.Log("Guard reached target! (Add attack logic here)");
-            }
-        }
+
     }
 
 

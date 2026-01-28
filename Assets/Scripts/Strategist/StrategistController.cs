@@ -212,7 +212,19 @@ public class StrategistController : MonoBehaviour
     void Die()
     {
         Debug.Log("Strategist died!");
-        // Could respawn, show game over, etc.
+
+        // Notify any agents attacking us that we're dead
+        GuardController[] guards = FindObjectsByType<GuardController>(FindObjectsSortMode.None);
+        foreach (GuardController guard in guards)
+        {
+            if (guard.CurrentTarget == this.transform)
+            {
+                guard.CurrentTarget = null;
+                guard.LastKnownPosition = transform.position;
+                guard.ChangeState(new SearchState(guard));
+            }
+        }
+
         gameObject.SetActive(false);
     }
 

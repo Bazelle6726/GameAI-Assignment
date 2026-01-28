@@ -137,10 +137,23 @@ public class GuardController : MonoBehaviour
         return true;
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage, Transform attacker = null)
     {
         currentHealth -= damage;
         Debug.Log($"Guard took {damage} damage! Health: {currentHealth}/{maxHealth}");
+
+        // React to damage!
+        if (attacker != null)
+        {
+            // Remember who attacked us
+            CurrentTarget = attacker;
+            LastKnownPosition = attacker.position;
+
+            // Immediately switch to Chase state
+            ChangeState(new ChaseState(this));
+
+            Debug.Log($"<color=orange>Guard reacting to damage! Switching to Chase!</color>");
+        }
 
         if (currentHealth <= 0)
         {
