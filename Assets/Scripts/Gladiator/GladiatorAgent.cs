@@ -98,7 +98,7 @@ public class GladiatorAgent : Agent
         // Reset velocity
         if (rb != null)
         {
-            rb.velocity = Vector3.zero;
+            rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
         }
     }
@@ -109,7 +109,7 @@ public class GladiatorAgent : Agent
         sensor.AddObservation(currentHealth / maxHealth);
         
         // Velocity observations (x and z)
-        Vector3 velocity = rb.velocity;
+        Vector3 velocity = rb.linearVelocity;
         sensor.AddObservation(velocity.x / moveSpeed);
         sensor.AddObservation(velocity.z / moveSpeed);
         
@@ -188,7 +188,7 @@ public class GladiatorAgent : Agent
         Vector3 moveDirection = transform.forward * moveForward * moveSpeed;
         
         // Keep current velocity in y axis (gravity)
-        rb.velocity = new Vector3(moveDirection.x, rb.velocity.y, moveDirection.z);
+        rb.linearVelocity = new Vector3(moveDirection.x, rb.linearVelocity.y, moveDirection.z);
         
         // Rotation
         float rotationDelta = turnDirection * rotationSpeed * Time.fixedDeltaTime;
