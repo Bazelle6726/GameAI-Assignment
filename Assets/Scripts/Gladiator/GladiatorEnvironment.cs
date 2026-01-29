@@ -2,17 +2,6 @@ using UnityEngine;
 using Unity.MLAgents;
 using System.Collections.Generic;
 
-/// <summary>
-/// Manages the Battle Arena environment for Gladiator agents
-/// Handles:
-/// - Episode management (resetting agents when they die)
-/// - Reward distribution (kills, survival)
-/// - Arena boundaries and spawn points
-/// - Resource spawning
-/// 
-/// IMPORTANT: Expects GameObjects with names "GladiatorSpawnPoint" in the scene
-/// They will be automatically discovered and used for agent spawning
-/// </summary>
 public class GladiatorEnvironment : MonoBehaviour
 {
     [Header("Arena Settings")]
@@ -24,9 +13,8 @@ public class GladiatorEnvironment : MonoBehaviour
     [SerializeField] private float agentSpawnHeight = 1f;
 
     [Header("Episode Settings")]
-    [SerializeField] private float episodeTimeoutSeconds = 300f; // 5 minutes max per episode
+    [SerializeField] private float episodeTimeoutSeconds = 300f;
 
-    // Internal state
     private List<GladiatorAgent> allAgents = new List<GladiatorAgent>();
     private List<Transform> spawnPoints = new List<Transform>();
     private float episodeStartTime;
@@ -34,10 +22,8 @@ public class GladiatorEnvironment : MonoBehaviour
 
     private void Start()
     {
-        // Initialize multi-agent group for coordinated training
         multiAgentGroup = new SimpleMultiAgentGroup();
 
-        // Find all agents in this environment
         GladiatorAgent[] agents = GetComponentsInChildren<GladiatorAgent>();
         foreach (GladiatorAgent agent in agents)
         {
@@ -45,7 +31,6 @@ public class GladiatorEnvironment : MonoBehaviour
             multiAgentGroup.RegisterAgent(agent);
         }
 
-        // Find all spawn points named "GladiatorSpawnPoint"
         FindSpawnPoints();
 
         if (spawnPoints.Count == 0)
@@ -58,24 +43,19 @@ public class GladiatorEnvironment : MonoBehaviour
             Debug.Log($"Found {spawnPoints.Count} spawn points for Gladiators.");
         }
 
-        // Start first episode
         episodeStartTime = Time.time;
     }
 
     private void Update()
     {
-        // Check if episode should end
         CheckEpisodeEnd();
     }
 
-    /// <summary>
-    /// Find all GameObjects named "GladiatorSpawnPoint" in the scene
-    /// </summary>
+    // Find all GameObjects named "GladiatorSpawnPoint" in the scene
     private void FindSpawnPoints()
     {
         spawnPoints.Clear();
 
-        // Find all objects named "GladiatorSpawnPoint"
         foreach (GameObject obj in FindObjectsByType<GameObject>(FindObjectsSortMode.None))
         {
             if (obj.name.Contains("GladiatorSpawnPoint") || obj.name == "GladiatorSpawnPoint")
@@ -84,25 +64,19 @@ public class GladiatorEnvironment : MonoBehaviour
             }
         }
 
-        // Sort by name for consistent ordering
         spawnPoints.Sort((a, b) => a.gameObject.name.CompareTo(b.gameObject.name));
-
         Debug.Log($"Discovered spawn points: {string.Join(", ", spawnPoints.ConvertAll(sp => sp.gameObject.name))}");
     }
 
-    /// <summary>
-    /// Automatically generates spawn points in a circle (fallback if none found)
-    /// </summary>
+    // Fallback: automatically generate spawn points in a circle
     private void GenerateSpawnPointsAutomatically()
     {
         spawnPoints.Clear();
 
-        // Create spawn points in a circle around arena center
         float spawnRadius = Mathf.Min(arenaSize.x, arenaSize.z) / 3f;
 
         for (int i = 0; i < agentsPerMatch; i++)
         {
-            // Create empty GameObject as spawn point
             GameObject spawnPointObj = new GameObject($"GeneratedSpawnPoint_{i}");
             spawnPointObj.transform.SetParent(transform);
 
@@ -117,10 +91,6 @@ public class GladiatorEnvironment : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Get spawn position for a specific agent index
-    /// Cycles through spawn points if there are fewer than agents
-    /// </summary>
     public Vector3 GetSpawnPosition(int agentIndex)
     {
         if (spawnPoints.Count == 0)
@@ -129,14 +99,10 @@ public class GladiatorEnvironment : MonoBehaviour
             return new Vector3(0, arenaCenter.y + agentSpawnHeight, 0);
         }
 
-        // Cycle through spawn points
         int spawnIndex = agentIndex % spawnPoints.Count;
         return spawnPoints[spawnIndex].position;
     }
 
-    /// <summary>
-    /// Get a random spawn position
-    /// </summary>
     public Vector3 GetRandomSpawnPosition()
     {
         if (spawnPoints.Count == 0)
@@ -152,7 +118,6 @@ public class GladiatorEnvironment : MonoBehaviour
 
     private void CheckEpisodeEnd()
     {
-        // Count alive agents
         int aliveCount = 0;
         GladiatorAgent survivor = null;
 
@@ -165,31 +130,26 @@ public class GladiatorEnvironment : MonoBehaviour
             }
         }
 
-        // Episode ends when:
-        // 1. Only one agent left (or all dead)
-        // 2. Time limit exceeded
-
         bool shouldEnd = false;
 
+        // Episode ends: only one agent left (or all dead)
         if (aliveCount <= 1)
         {
-            // Clear winner (or draw if all dead)
             if (survivor != null)
             {
-                survivor.OnEnemyEliminated(); // Reward for winning
+                survivor.OnEnemyEliminated();
             }
             shouldEnd = true;
         }
 
+        // Episode ends: time limit exceeded
         if (Time.time - episodeStartTime > episodeTimeoutSeconds)
         {
-            // Time limit reached
             shouldEnd = true;
         }
 
         if (shouldEnd)
         {
-            // End episode for all agents
             multiAgentGroup.GroupEpisodeInterrupted();
             episodeStartTime = Time.time;
         }
@@ -203,7 +163,6 @@ public class GladiatorEnvironment : MonoBehaviour
         }
     }
 
-    // Visualization
     private void OnDrawGizmosSelected()
     {
         // Draw arena boundary
@@ -211,13 +170,12 @@ public class GladiatorEnvironment : MonoBehaviour
         Vector3 min = arenaCenter - arenaSize / 2;
         Vector3 max = arenaCenter + arenaSize / 2;
 
-        // Draw box outline
         Gizmos.DrawLine(new Vector3(min.x, min.y, min.z), new Vector3(max.x, min.y, min.z));
         Gizmos.DrawLine(new Vector3(max.x, min.y, min.z), new Vector3(max.x, min.y, max.z));
         Gizmos.DrawLine(new Vector3(max.x, min.y, max.z), new Vector3(min.x, min.y, max.z));
         Gizmos.DrawLine(new Vector3(min.x, min.y, max.z), new Vector3(min.x, min.y, min.z));
 
-        // Draw spawn points if available
+        // Draw spawn points
         if (spawnPoints.Count > 0)
         {
             Gizmos.color = Color.green;

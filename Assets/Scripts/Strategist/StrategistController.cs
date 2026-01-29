@@ -65,7 +65,7 @@ public class StrategistController : MonoBehaviour
 
     void Update()
     {
-        // Update health display (clamped)
+        // Update health and ammo to be within bounds
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         currentAmmo = Mathf.Clamp(currentAmmo, 0, maxAmmo);
 
@@ -80,7 +80,7 @@ public class StrategistController : MonoBehaviour
             EvaluateAndSelectAction();
         }
 
-        // Execute current action
+        // perform current action
         currentAction?.Execute();
     }
 
@@ -213,7 +213,7 @@ public class StrategistController : MonoBehaviour
     {
         Debug.Log("Strategist died!");
 
-        // Notify any agents attacking us that we're dead
+        // Notify all guard strategist is dead
         GuardController[] guards = FindObjectsByType<GuardController>(FindObjectsSortMode.None);
         foreach (GuardController guard in guards)
         {

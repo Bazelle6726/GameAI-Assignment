@@ -3,156 +3,193 @@ using UnityEngine.AI;
 
 public class GuardController : MonoBehaviour
 {
+    #region Components
     [Header("Components")]
     public NavMeshAgent agent;
+    #endregion
 
+    #region Patrol Settings
     [Header("Patrol Settings")]
     public Transform[] patrolPoints;
     public float patrolWaitTime = 2f;
+    #endregion
 
+    #region Detection Settings
     [Header("Detection Settings")]
     public float detectionRadius = 10f;
     public float fieldOfViewAngle = 110f;
-    public LayerMask targetMask; // What can be detected (enemies)
-    public LayerMask obstacleMask; // What blocks vision (walls)
+    public LayerMask targetMask;
+    public LayerMask obstacleMask;
+    #endregion
 
+    #region Movement Settings
     [Header("Chase Settings")]
     public float chaseSpeed = 5f;
     public float normalSpeed = 3.5f;
+    #endregion
 
+    #region Search Settings
     [Header("Search Settings")]
     public float searchDuration = 5f;
     public float searchRadius = 5f;
+    #endregion
 
+    #region Combat Settings
     [Header("Combat")]
     public float maxHealth = 100f;
     public float currentHealth = 100f;
     public float attackDamage = 15f;
     public float attackRange = 2f;
     public float attackCooldown = 1.5f;
-    public float lastAttackTime = 1f;
+    public float lastAttackTime = 0f;
+    #endregion
 
-
-    // State Machine
+    #region State Machine
     private GuardState currentState;
 
-    // Public properties for states to access
     public Transform CurrentTarget { get; set; }
     public Vector3 LastKnownPosition { get; set; }
+    #endregion
 
+    #region Unity Lifecycle
     void Start()
     {
-        // Get NavMeshAgent component
-        agent = GetComponent<NavMeshAgent>();
+        InitializeComponents();
+        ValidateSetup();
 
-        if (agent == null)
-        {
-            Debug.LogError("NavMeshAgent component missing!");
-            return;
-        }
-
-        // Validate patrol points
-        if (patrolPoints.Length == 0)
-        {
-            Debug.LogWarning("No patrol points assigned! Patrol state won't work properly.");
-        }
-
-        // Start in Patrol state
         ChangeState(new PatrolState(this));
     }
 
     void Update()
     {
-        // Update current state
         currentState?.Update();
     }
+    #endregion
 
-    /// <summary>
-    /// Change to a new state
-    /// </summary>
-    public void ChangeState(GuardState newState)
+    #region Initialization
+    private void InitializeComponents()
     {
-        // Exit current state
-        currentState?.Exit();
+        agent = GetComponent<NavMeshAgent>();
 
-        // Change to new state
-        currentState = newState;
+        if (agent == null)
+        {
+            Debug.LogError("[Guard] NavMeshAgent component missing!");
+            enabled = false;
+            return;
+        }
 
-        // Enter new state
-        currentState?.Enter();
+        agent.speed = normalSpeed;
     }
 
-    /// <summary>
-    /// Check if any target is visible within detection range
-    /// </summary>
+    private void ValidateSetup()
+    {
+        if (patrolPoints.Length == 0)
+        {
+            Debug.LogWarning("[Guard] No patrol points assigned! Patrol state won't work properly.");
+        }
+
+        if (targetMask == 0)
+        {
+            Debug.LogWarning("[Guard] Target mask not set! Guard won't detect enemies.");
+        }
+
+        if (obstacleMask == 0)
+        {
+            Debug.LogWarning("[Guard] Obstacle mask not set! Line of sight checks may not work properly.");
+        }
+    }
+    #endregion
+
+    #region State Management
+    public void ChangeState(GuardState newState)
+    {
+        currentState?.Exit();
+        currentState = newState;
+        currentState?.Enter();
+    }
+    #endregion
+
+    #region Target Detection
     public Transform DetectTarget()
     {
-        // Find all colliders within detection radius
         Collider[] targetsInRadius = Physics.OverlapSphere(transform.position, detectionRadius, targetMask);
 
         foreach (Collider targetCollider in targetsInRadius)
         {
             Transform target = targetCollider.transform;
+
+            if (!target.gameObject.activeInHierarchy)
+                continue;
+
             Vector3 directionToTarget = (target.position - transform.position).normalized;
 
-            // Check if target is within field of view angle
             if (Vector3.Angle(transform.forward, directionToTarget) < fieldOfViewAngle / 2)
             {
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
-                // Check if we have clear line of sight (no obstacles blocking)
                 if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstacleMask))
                 {
-                    // Target detected!
                     return target;
                 }
             }
         }
 
-        return null; // No target detected
+        return null;
     }
 
-    /// <summary>
-    /// Check if we can still see the current target
-    /// </summary>
     public bool CanSeeTarget(Transform target)
     {
-        if (target == null) return false;
+        if (target == null)
+            return false;
+
+        if (!target.gameObject.activeInHierarchy)
+            return false;
 
         Vector3 directionToTarget = (target.position - transform.position).normalized;
         float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
-        // Check distance
         if (distanceToTarget > detectionRadius)
             return false;
 
-        // Check angle
         if (Vector3.Angle(transform.forward, directionToTarget) > fieldOfViewAngle / 2)
             return false;
 
-        // Check line of sight
         if (Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstacleMask))
             return false;
 
         return true;
     }
 
+    public bool IsTargetValid()
+    {
+        if (CurrentTarget == null)
+            return false;
+
+        if (!CurrentTarget.gameObject.activeInHierarchy)
+            return false;
+
+        StrategistController strategist = CurrentTarget.GetComponent<StrategistController>();
+        if (strategist != null && strategist.currentHealth <= 0)
+            return false;
+
+        return true;
+    }
+    #endregion
+
+    #region Combat
     public void TakeDamage(float damage, Transform attacker = null)
     {
         currentHealth -= damage;
-        Debug.Log($"Guard took {damage} damage! Health: {currentHealth}/{maxHealth}");
+        currentHealth = Mathf.Max(currentHealth, 0);
 
-        // React to damage!
-        if (attacker != null)
+        Debug.Log($"[Guard] Took {damage} damage! Health: {currentHealth}/{maxHealth}");
+
+        if (attacker != null && attacker.gameObject.activeInHierarchy)
         {
-            // Remember who attacked us
             CurrentTarget = attacker;
             LastKnownPosition = attacker.position;
-
-            // Immediately switch to Chase state
             ChangeState(new ChaseState(this));
-
-            Debug.Log($"<color=orange>Guard reacting to damage! Switching to Chase!</color>");
+            Debug.Log($"<color=orange>[Guard] Reacting to damage! Switching to Chase!</color>");
         }
 
         if (currentHealth <= 0)
@@ -161,20 +198,36 @@ public class GuardController : MonoBehaviour
         }
     }
 
-    void Die()
+    private void Die()
     {
-        Debug.Log("Guard died!");
+        Debug.Log("<color=red>[Guard] Died!</color>");
+
+        StrategistController[] strategists = FindObjectsByType<StrategistController>(FindObjectsSortMode.None);
+        foreach (StrategistController strategist in strategists)
+        {
+            if (strategist.CurrentEnemy == this.transform)
+            {
+                strategist.CurrentEnemy = null;
+                Debug.Log("[Guard] Cleared from Strategist's target list");
+            }
+        }
+
         gameObject.SetActive(false);
     }
+    #endregion
 
-    // Visual debugging in Scene view
+    #region Debug Visualization
     void OnDrawGizmosSelected()
     {
-        // Draw detection radius
+        // Detection radius (yellow)
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
 
-        // Draw field of view
+        // Attack range (red)
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
+
+        // Field of view cone (blue)
         Vector3 leftBoundary = Quaternion.Euler(0, -fieldOfViewAngle / 2, 0) * transform.forward * detectionRadius;
         Vector3 rightBoundary = Quaternion.Euler(0, fieldOfViewAngle / 2, 0) * transform.forward * detectionRadius;
 
@@ -182,7 +235,7 @@ public class GuardController : MonoBehaviour
         Gizmos.DrawLine(transform.position, transform.position + leftBoundary);
         Gizmos.DrawLine(transform.position, transform.position + rightBoundary);
 
-        // Draw path if available
+        // Current path (green)
         if (agent != null && agent.hasPath)
         {
             Gizmos.color = Color.green;
@@ -193,5 +246,13 @@ public class GuardController : MonoBehaviour
                 Gizmos.DrawLine(corners[i], corners[i + 1]);
             }
         }
+
+        // Line to current target (red)
+        if (CurrentTarget != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawLine(transform.position, CurrentTarget.position);
+        }
     }
+    #endregion
 }

@@ -9,13 +9,13 @@ public class CollectAmmoAction : UtilityAction
         // Calculate ammo percentage
         float ammoPercentage = (float)strategist.currentAmmo / strategist.maxAmmo;
 
-        // If ammo is above 70%, don't bother collecting more
+        // If ammo is above 30%, dont collect
         if (ammoPercentage > 0.3f)
         {
             return 0f;
         }
 
-        // No ammo box available? Utility = 0
+        // find nearest ammo box
         AmmoBox nearestAmmoBox = strategist.FindNearestAmmoBox();
         if (nearestAmmoBox == null)
         {
@@ -23,7 +23,7 @@ public class CollectAmmoAction : UtilityAction
             return 0f;
         }
 
-        // Calculate utility based on ammo percentage (lower ammo = higher utility)
+        // Calculate utility based on ammo percentage
         float ammoUrgency = 1f - ammoPercentage;
 
         // Factor in distance

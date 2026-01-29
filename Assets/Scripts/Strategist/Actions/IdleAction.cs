@@ -1,8 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// Action: Patrol/wander when nothing urgent needs doing
-/// </summary>
 public class IdleAction : UtilityAction
 {
     private Vector3 targetPosition;
@@ -13,7 +10,7 @@ public class IdleAction : UtilityAction
 
     public override float CalculateUtility()
     {
-        // Always return a small utility so this is the fallback action
+        // fallback action
         // when nothing else is more important
         return 0.1f;
     }
@@ -22,14 +19,13 @@ public class IdleAction : UtilityAction
     {
         idleTimer += Time.deltaTime;
 
-        // Pick a new random destination periodically
+        // Pick a new random destination
         if (idleTimer >= idleInterval || !strategist.agent.hasPath)
         {
             idleTimer = 0f;
             PickRandomDestination();
         }
-
-        // Move at normal speed
+        // Set speed to normal
         strategist.agent.speed = strategist.normalSpeed;
     }
 

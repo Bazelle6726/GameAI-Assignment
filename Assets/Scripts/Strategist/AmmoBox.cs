@@ -32,7 +32,6 @@ public class AmmoBox : MonoBehaviour
             renderer.enabled = false;
         }
 
-        // Disable collider
         if (col != null)
         {
             col.enabled = false;

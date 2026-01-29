@@ -28,7 +28,7 @@ public class PatrolState : GuardState
         Transform detectedTarget = guard.DetectTarget();
         if (detectedTarget != null)
         {
-            // Enemy spotted! Switch to Chase state
+            // Enemy spotted, Switch to Chase
             guard.CurrentTarget = detectedTarget;
             guard.ChangeState(new ChaseState(guard));
             return;

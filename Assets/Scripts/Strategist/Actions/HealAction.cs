@@ -19,7 +19,7 @@ public class HealAction : UtilityAction
             return 0f;
 
         // Calculate utility based on health percentage (lower health = higher utility)
-        float healthUrgency = 1f - healthPercentage; // 0.0 (full health) to 1.0 (no health)
+        float healthUrgency = 1f - healthPercentage;
 
         // Factor in distance (closer = better)
         float distance = Vector3.Distance(strategist.transform.position, nearestFirstaid.transform.position);

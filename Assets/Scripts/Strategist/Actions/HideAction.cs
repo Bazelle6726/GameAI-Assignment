@@ -8,7 +8,7 @@ public class HideAction : UtilityAction
 
     public override float CalculateUtility()
     {
-        // No threat? No need to hide
+        // No need to hide
         if (strategist.CurrentEnemy == null)
             return 0f;
 
@@ -16,7 +16,7 @@ public class HideAction : UtilityAction
         float healthPercentage = strategist.currentHealth / strategist.maxHealth;
         float healthUrgency = 1f - healthPercentage;
 
-        // Calculate distance to threat (closer threat = more urgent)
+        // Calculate distance to threat (closer enemy = more urgent)
         float distanceToEnemy = Vector3.Distance(strategist.transform.position, strategist.CurrentEnemy.position);
         float enemyProximity = 1f - Mathf.Clamp01(distanceToEnemy / strategist.detectionRadius);
 
@@ -37,9 +37,9 @@ public class HideAction : UtilityAction
         if (strategist.CurrentEnemy == null)
             return;
 
-        // Calculate flee direction (away from threat)
+        // Calculate flee direction (away from enemy)
         Vector3 directionAwayFromEnemy = (strategist.transform.position - strategist.CurrentEnemy.position).normalized;
-        // Find flee position far away from threat
+        // Find flee position far away from enemy
         fleePosition = strategist.transform.position + (directionAwayFromEnemy * 15f);
 
         // Move fast while fleeing

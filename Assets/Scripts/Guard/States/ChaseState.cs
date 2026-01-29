@@ -3,7 +3,7 @@ using UnityEngine;
 public class ChaseState : GuardState
 {
     private float lostTargetTimer = 0f;
-    private float maxLostTime = 2f; // How long to chase before losing target
+    private float maxLostTime = 2f;
 
     public ChaseState(GuardController guard) : base(guard) { }
 
@@ -21,15 +21,15 @@ public class ChaseState : GuardState
     {
         if (guard.CurrentTarget == null)
         {
-            // Lost target, go to search
+            // Lost enemy, go to search
             guard.ChangeState(new SearchState(guard));
             return;
         }
 
-        // Check if we can still see target
+        // Check for enemy
         if (guard.CanSeeTarget(guard.CurrentTarget))
         {
-            // Still see target - chase it
+            // chase enemy seen
             guard.LastKnownPosition = guard.CurrentTarget.position;
             guard.agent.SetDestination(guard.CurrentTarget.position);
             lostTargetTimer = 0f;
@@ -46,7 +46,7 @@ public class ChaseState : GuardState
                 {
                     guard.lastAttackTime = Time.time;
 
-                    // Try to damage Strategist
+                    // Try attack Strategist
                     StrategistController strategist = guard.CurrentTarget.GetComponent<StrategistController>();
                     if (strategist != null)
                     {
@@ -59,12 +59,12 @@ public class ChaseState : GuardState
         }
         else
         {
-            // Can't see target anymore
+            // Can't see enemy anymore
             lostTargetTimer += Time.deltaTime;
 
             if (lostTargetTimer >= maxLostTime)
             {
-                // Lost target for too long, switch to Search
+                // Lost enemy for too long, switch to Search
                 guard.ChangeState(new SearchState(guard));
             }
             else

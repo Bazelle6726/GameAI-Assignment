@@ -14,20 +14,19 @@ public class AttackAction : UtilityAction
         if (strategist.currentAmmo <= 0)
             return 0f;
 
-        // Calculate utility based on combat readiness
+        // Calculate utility based on health, ammo, and distance to enemy
         float healthPercentage = strategist.currentHealth / strategist.maxHealth;
         float ammoPercentage = (float)strategist.currentAmmo / strategist.maxAmmo;
 
-        // Only attack if we have decent health and ammo
+        // Only attack with health and ammo
         float combatReadiness = (healthPercentage * 0.6f) + (ammoPercentage * 0.4f);
 
-        // Calculate distance factor (prefer medium range)
+        // Calculate distance
         float distanceToEnemy = Vector3.Distance(strategist.transform.position, strategist.CurrentEnemy.position);
         float optimalRange = strategist.attackRange * 0.7f;
         float distanceFactor = 1f - Mathf.Abs(distanceToEnemy - optimalRange) / strategist.attackRange;
         distanceFactor = Mathf.Clamp01(distanceFactor);
 
-        // Combine factors
         float utility = (combatReadiness * 0.7f) + (distanceFactor * 0.3f);
 
         // Don't attack if health is too low
@@ -36,7 +35,7 @@ public class AttackAction : UtilityAction
             utility *= 0.2f;
         }
 
-        // Almost dead? Don't attack at all, focus on survival
+        //  survive
         if (healthPercentage < 0.3f)
         {
             return 0f;
@@ -60,10 +59,9 @@ public class AttackAction : UtilityAction
         }
         else
         {
-            // In range - stop and attack
             strategist.agent.SetDestination(strategist.transform.position); // Stop moving
 
-            // Face the threat
+            // Face enemy
             Vector3 directionToEnemy = (strategist.CurrentEnemy.position - strategist.transform.position).normalized;
             Quaternion lookRotation = Quaternion.LookRotation(new Vector3(directionToEnemy.x, 0, directionToEnemy.z));
             strategist.transform.rotation = Quaternion.Slerp(strategist.transform.rotation, lookRotation, Time.deltaTime * 5f);
@@ -74,11 +72,10 @@ public class AttackAction : UtilityAction
                 strategist.currentAmmo--;
                 strategist.lastAttackTime = Time.time;
 
-                // Damage the Guard and tell them who attacked
                 GuardController guard = strategist.CurrentEnemy.GetComponent<GuardController>();
                 if (guard != null)
                 {
-                    guard.TakeDamage(strategist.attackDamage, strategist.transform);  // ← Added strategist.transform
+                    guard.TakeDamage(strategist.attackDamage, strategist.transform);
                     Debug.Log($"<color=cyan>Strategist attacked Guard for {strategist.attackDamage} damage!</color>");
                 }
             }

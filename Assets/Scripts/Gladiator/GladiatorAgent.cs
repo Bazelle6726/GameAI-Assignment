@@ -168,8 +168,6 @@ public class GladiatorAgent : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-        // Only use ML-Agents actions during actual training
-        // For now, manual input takes precedence
         if (!useManualInput)
         {
             float moveForward = actions.ContinuousActions[0];

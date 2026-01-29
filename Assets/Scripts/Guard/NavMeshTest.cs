@@ -4,7 +4,6 @@ using UnityEngine.AI;
 public class NavMeshTest : MonoBehaviour
 {
     private NavMeshAgent agent;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -15,7 +14,6 @@ public class NavMeshTest : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))

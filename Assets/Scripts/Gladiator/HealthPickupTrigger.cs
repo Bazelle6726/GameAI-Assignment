@@ -1,14 +1,10 @@
 using UnityEngine;
 
-/// <summary>
-/// Trigger-based health pickup for agents to collect
-/// When an agent touches this, it heals and gets a reward
-/// </summary>
 public class HealthPickupTrigger : MonoBehaviour
 {
     [SerializeField] public float healthAmount = 20f;
     [SerializeField] private float respawnTime = 10f;
-    
+
     private bool isAvailable = true;
     private float respawnTimer = 0f;
     private Material originalMaterial;
@@ -16,7 +12,7 @@ public class HealthPickupTrigger : MonoBehaviour
 
     private void Start()
     {
-        // Store original material for visibility toggle
+        // Store original material for visibility
         Renderer renderer = GetComponent<Renderer>();
         if (renderer != null)
         {
@@ -39,13 +35,13 @@ public class HealthPickupTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider collision)
     {
         if (!isAvailable) return;
-        
+
         GladiatorAgent agent = collision.GetComponent<GladiatorAgent>();
         if (agent != null && agent.IsAlive)
         {
             // Give reward to agent
             agent.CollectResource(healthAmount);
-            
+
             // Disable pickup until respawn
             Disable();
         }
@@ -55,8 +51,7 @@ public class HealthPickupTrigger : MonoBehaviour
     {
         isAvailable = false;
         respawnTimer = respawnTime;
-        
-        // Visual feedback: hide or disable the pickup
+
         gameObject.SetActive(false);
     }
 
@@ -64,8 +59,7 @@ public class HealthPickupTrigger : MonoBehaviour
     {
         isAvailable = true;
         respawnTimer = 0f;
-        
-        // Visual feedback: show the pickup again
+
         gameObject.SetActive(true);
     }
 }
