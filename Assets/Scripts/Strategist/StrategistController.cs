@@ -150,6 +150,12 @@ public class StrategistController : MonoBehaviour
         {
             if (!firstaid.isAvailable) continue;
 
+            // OPTIMIZATION: Manhattan distance pre-filter
+            float roughDistance = Mathf.Abs(transform.position.x - firstaid.transform.position.x) +
+                                 Mathf.Abs(transform.position.z - firstaid.transform.position.z);
+
+            if (roughDistance > 50f) continue;
+
             float distance = Vector3.Distance(transform.position, firstaid.transform.position);
             if (distance < closestDistance)
             {
@@ -171,6 +177,12 @@ public class StrategistController : MonoBehaviour
         foreach (AmmoBox crate in ammoBoxes)
         {
             if (!crate.isAvailable) continue;
+
+            // OPTIMIZATION: Manhattan distance pre-filter
+            float roughDistance = Mathf.Abs(transform.position.x - crate.transform.position.x) +
+                                 Mathf.Abs(transform.position.z - crate.transform.position.z);
+
+            if (roughDistance > 50f) continue;
 
             float distance = Vector3.Distance(transform.position, crate.transform.position);
             if (distance < closestDistance)
